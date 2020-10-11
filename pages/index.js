@@ -3,35 +3,7 @@ import Layout from "../components/Layout";
 import Link from "next/link";
 import Search from "../components/blog/Search";
 const Index = () => {
-  const head = () => (
-    <Head>
-      <title>BENCH | {APP_NAME}</title>
-      <meta name="description" content="Uganda Consumer Lenders' Association" />
-      <link rel="canonical" href={`${DOMAIN}${router.pathname}`} />
-      <meta
-        property="og:title"
-        content={`Latest web developoment tutorials | ${APP_NAME}`}
-      />
-      <meta
-        property="og:description"
-        content="Uganda Consumer Lenders' Association"
-      />
-      <meta property="og:type" content="webiste" />
-      <meta property="og:url" content={`${DOMAIN}${router.pathname}`} />
-      <meta property="og:site_name" content={`${APP_NAME}`} />
-
-      <meta
-        property="og:image"
-        content={`${DOMAIN}/static/images/seoblog.jpg`}
-      />
-      <meta
-        property="og:image:secure_url"
-        content={`${DOMAIN}/static/images/seoblog.jpg`}
-      />
-      <meta property="og:image:type" content="image/jpg" />
-      <meta property="fb:app_id" content={`${FB_APP_ID}`} />
-    </Head>
-  );
+  
   return (
     <Layout>
       <article className="overflow-hidden">
